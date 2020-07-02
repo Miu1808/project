@@ -1,0 +1,46 @@
+
+#feedback {
+    margin-top: 50px;
+    padding: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color:;
+    background: no-repeat;
+}
+h2 {
+    text-align: center;
+    color: rgb(8, 137, 146);
+    padding: 15px;
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;    
+}
+
+
+.fb {
+    background-color: #c6d166;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 15px 60px;
+    height: 300px;
+}
+
+.fb-contain {
+    display: flex;
+}
+
+.ava {
+    margin-left: 120px;
+    border-radius: 100px;
+    width: 150px;
+    height: 160px;
+
+}
+
+.ava:hover {
+    transform: scale(1.25);
+    transition: ease-in-out 0.5s;
+}
+
+h3 {
+    text-align: center;
+    font-weight: 1000;
+}

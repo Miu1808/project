@@ -1,0 +1,89 @@
+body{
+    background-image: url(./signup.webp);
+}
+#container{
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-position: 100%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+h2{
+        font-size: 40px;
+}
+
+#infor{
+    margin: auto;
+    font-size: 21px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: space-between ;
+    background-position: center;
+    
+}
+
+#nickname{
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#password{
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+#name{
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#birthday{
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#city{
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#email{
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#result{
+    margin: 20px;
+}
+
+button{
+    font-size: 20px;
+    background-color: rgb(192, 138, 37);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 5px;
+}
+
+i{
+    margin-top: 10px;
+    font-size: 25px;
+}
+
+input{
+    width: 250px;
+    height: 35px;
+    border-radius: 5px;
+}
+

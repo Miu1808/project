@@ -1,0 +1,76 @@
+body{
+    background-image: url(./signup.webp);
+}
+
+#container{
+    margin: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 200px;
+    width: ;
+}
+
+h2{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input{
+    border-radius: 3px;
+    height: 25px;
+    width: 220px;
+    font-size: 15px;
+}
+
+#nickname{
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+
+}
+
+#password{
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+
+}
+
+button{
+    background-color: rgb(192, 138, 37);
+    border-radius: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+}
+
+#card{
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+#card2{
+    display: flex;
+    justify-content: center;
+    margin-top: 8px;
+}
+
+#nickname{
+    padding: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#password{
+    padding: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
