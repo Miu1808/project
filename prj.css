@@ -1,6 +1,6 @@
 body{
-    background-image: url(./signup.webp);
-
+    background-image: url(./bgr.png);
+    background-color: rgb(226, 225, 171);
 }
 #title{
     margin-top: 60px;
@@ -23,7 +23,7 @@ i{
     flex-direction: row;
     justify-content: space-around;
     margin: 30px;
-    background-color: rgb(138, 127, 73);
+    background-color: rgb(155, 143, 75);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 20px;
 }
@@ -34,7 +34,6 @@ i{
     align-items: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 20px;
-    border: ;
 }
 
 input{
