@@ -3,14 +3,15 @@ const nextButton = document.getElementById('next-btn')
 const container = document.getElementById('ques-container')
 const questionsElement = document.getElementById('ques')
 const answerButtons = document.getElementById('ans')
-const score = document.getElementById('scoreContain')
 const quiz = document.getElementById('quiz')
 let shuffleQues, currentQues
+
 startButton.addEventListener('click',startGame)
 nextButton.addEventListener('click', () => {
     currentQues++
     nextQues()
 })
+
 function startGame() {
     startButton.classList.add('hide')
     shuffleQues = quest.sort(() => Math.random() - .5)
@@ -18,10 +19,12 @@ function startGame() {
     container.classList.remove('hide')
     nextQues()
 }
+
 function nextQues() {
     resetState()
     showQues(shuffleQues[currentQues])
 }
+
 function showQues(quest) {
     questionsElement.innerText = quest.question
     quest.answer.forEach(answer => {
@@ -35,6 +38,7 @@ function showQues(quest) {
         answerButtons.appendChild(button)
     })
 }
+
 function resetState() {
     clearStatusClass(quiz)
     nextButton.classList.add('hide')
@@ -61,13 +65,15 @@ function setStatusClass(element, correct) {
     if (correct) {
         element.classList.add('correct')
     } else {
-        element.classList.add('wrong')        
+        element.classList.add('wrong')
     }
 }
+
 function clearStatusClass(element) {
     element.classList.remove('correct')
     element.classList.remove('wrong')
 }
+
 const quest = [
     {
         question: 'Theo bạn, chu trình dưỡng da như thế nào là hợp lý?',
@@ -112,51 +118,6 @@ const quest = [
             {text: '5', correct: false},
             {text: '3', correct: false},
             {text: '2', correct: false},
-        ]
-    },
-    {
-        question: 'Sản phẩm skincare nào không dành cho da dầu?',
-        answer: [
-            {text: 'Nature Republic Super Aqua Max Fresh Watery Cream', correct: false},
-            {text: 'Cosrx Low pH Good Morning', correct: false},
-            {text: 'Toner Dickinson', correct: true},
-            {text: 'Klairs Supple Preparation Facial Toner', correct: false},
-        ]
-    },
-    {
-        question: 'Sản phẩm không dành cho da khô',
-        answer: [
-            {text: 'RESIST Anti-Aging Clear Skin Hydrator ', correct: false},
-            {text: 'Klairs Supple Preparation Facial Toner', correct: true},
-            {text: 'Toner Dickinson', correct: false},
-            {text: 'CALM Redness Relief Cleanser', correct: false},
-        ]
-    },
-    {
-        question: 'Điều nên làm với da mặt',
-        answer: [
-            {text: 'Thường xuyên chạm tay vào mặt', correct: false},
-            {text: 'Không đeo khẩu trang', correct: false},
-            {text: 'Sử dụng các sản phẩm skincare hợp với da mặt', correct: true},
-            {text: 'Không bôi kem chống nắng', correct: false},
-        ]
-    },
-    {
-        question: 'Sản phẩm skincare dành riêng cho nam giới',
-        answer: [
-            {text: 'Innisfree Forest For Men Moisture Skincare Trio Set', correct: true},
-            {text: 'Simple kind to skin mecellar cleasing water', correct: false },
-            {text: 'Eco Science Skin', correct: false},
-            {text: 'Mad Hippie Vitamin C', correct: false},
-        ]
-    },
-    {
-        question: 'Các sản phẩm không phải cho bà bầu?',
-        answer: [
-            {text: 'Mad Hippie Cream Cleanser', correct: false },
-            {text: 'Andalou Naturals 1000 Roses Beautiful Day Cream', correct: false},
-            {text: 'Botani', correct: false},
-            {text: 'Innisfree Forest ', correct: true},
         ]
     }
 ]

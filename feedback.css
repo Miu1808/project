@@ -1,13 +1,13 @@
 
 #feedback {
-    margin-top: 50px;
+    margin-top: 30px;
     padding: 15px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 h2 {
     text-align: center;
-    color: rgb(5, 157, 168);
+    color: rgb(5, 158, 185);
     padding: 15px;
     font-size: 40px;
     margin-top: 30px;
@@ -16,7 +16,7 @@ h2 {
 }
 
 .fb {
-    background-color: #9cc955;
+    background-color: #a2da49;
     margin: 15px;
     padding: 15px;
     border-radius: 15px 60px;

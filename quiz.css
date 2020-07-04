@@ -6,7 +6,7 @@
 
 body {
     --hue: var(--hue-neutral);
-    background-color: hsl(var(--hue), 100%, 20%);
+    background-color: rgb(91, 214, 60);
     display: flex;
     justify-content: center;
     align-items: center;

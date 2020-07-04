@@ -1,0 +1,681 @@
+Last login: Thu Jun 25 19:31:01 on ttys000
+tranvananh@Air-cua-Tran ~ % mkdir 
+usage: mkdir [-pv] [-m mode] directory ...
+tranvananh@Air-cua-Tran ~ % git add prj.html
+fatal: pathspec 'prj.html' did not match any files
+tranvananh@Air-cua-Tran ~ % 
+tranvananh@Air-cua-Tran ~ % git init https://github.com/Miu1808/Nartural-Beauty-Project.git
+Initialized empty Git repository in /Users/tranvananh/https:/github.com/Miu1808/Nartural-Beauty-Project.git/.git/
+tranvananh@Air-cua-Tran ~ % git clone https://github.com/Miu1808/Nartural-Beauty-Project.git
+Cloning into 'Nartural-Beauty-Project'...
+fatal: protocol '/Users/tranvananh/https' is not supported
+tranvananh@Air-cua-Tran ~ % clear
+
+
+
+
+
+
+
+
+
+tranvananh@Air-cua-Tran ~ % cd 
+tranvananh@Air-cua-Tran ~ % cd /Users/tranvananh/Documents/Tài\ liệu\ code\ /Natural\ Beauty\ Project 
+tranvananh@Air-cua-Tran Natural Beauty Project %                     
+tranvananh@Air-cua-Tran Natural Beauty Project % git init prj.html   
+fatal: cannot mkdir prj.html: File exists
+tranvananh@Air-cua-Tran Natural Beauty Project % checkout sign-up.html
+zsh: command not found: checkout
+tranvananh@Air-cua-Tran Natural Beauty Project % git
+usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+
+These are common Git commands used in various situations:
+
+start a working area (see also: git help tutorial)
+   clone     Clone a repository into a new directory
+   init      Create an empty Git repository or reinitialize an existing one
+
+work on the current change (see also: git help everyday)
+   add       Add file contents to the index
+   mv        Move or rename a file, a directory, or a symlink
+   restore   Restore working tree files
+   rm        Remove files from the working tree and from the index
+
+examine the history and state (see also: git help revisions)
+   bisect    Use binary search to find the commit that introduced a bug
+   diff      Show changes between commits, commit and working tree, etc
+   grep      Print lines matching a pattern
+   log       Show commit logs
+   show      Show various types of objects
+   status    Show the working tree status
+
+grow, mark and tweak your common history
+   branch    List, create, or delete branches
+   commit    Record changes to the repository
+   merge     Join two or more development histories together
+   rebase    Reapply commits on top of another base tip
+   reset     Reset current HEAD to the specified state
+   switch    Switch branches
+   tag       Create, list, delete or verify a tag object signed with GPG
+
+collaborate (see also: git help workflows)
+   fetch     Download objects and refs from another repository
+   pull      Fetch from and integrate with another repository or a local branch
+   push      Update remote refs along with associated objects
+
+'git help -a' and 'git help -g' list available subcommands and some
+concept guides. See 'git help <command>' or 'git help <concept>'
+to read about a specific subcommand or concept.
+See 'git help git' for an overview of the system.
+tranvananh@Air-cua-Tran Natural Beauty Project % git init
+Initialized empty Git repository in /Users/tranvananh/Documents/Tài liệu code /Natural Beauty Project/.git/
+tranvananh@Air-cua-Tran Natural Beauty Project % git add
+Nothing specified, nothing added.
+Maybe you wanted to say 'git add .'?
+tranvananh@Air-cua-Tran Natural Beauty Project % git add .
+tranvananh@Air-cua-Tran Natural Beauty Project % git commit -m "first commit"
+[master (root-commit) 4150d85] first commit
+ 24 files changed, 1048 insertions(+)
+ create mode 100644 .DS_Store
+ create mode 100644 Feedback + quiz (1).rar
+ create mode 100644 Feedback + quiz.rar
+ create mode 100644 comemhomelab.html
+ create mode 100644 feedback.css
+ create mode 100644 feedback.html
+ create mode 100644 log-in.css
+ create mode 100644 log-in.html
+ create mode 100644 pizkie.html
+ create mode 100644 pizkie.webp
+ create mode 100644 prj.css
+ create mode 100644 prj.html
+ create mode 100644 quiz.css
+ create mode 100644 quiz.js
+ create mode 100644 sign-up.css
+ create mode 100644 sign-up.html
+ create mode 100644 signup.webp
+ create mode 100644 skinna.html
+ create mode 100644 suzy.webp
+ create mode 100644 syj.webp
+ create mode 100644 theherbalcup.html
+ create mode 100644 trangchu.css
+ create mode 100644 trangchu.html
+ create mode 100644 yoona.webp
+tranvananh@Air-cua-Tran Natural Beauty Project % git remote add origin https://github.com/Miu1808/project
+tranvananh@Air-cua-Tran Natural Beauty Project % git remote -v
+origin	https://github.com/Miu1808/project (fetch)
+origin	https://github.com/Miu1808/project (push)
+tranvananh@Air-cua-Tran Natural Beauty Project % git push origin master
+To https://github.com/Miu1808/project
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/Miu1808/project'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+tranvananh@Air-cua-Tran Natural Beauty Project % git push origin master
+To https://github.com/Miu1808/project
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/Miu1808/project'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+tranvananh@Air-cua-Tran Natural Beauty Project % git pull origin master 
+warning: no common commits
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+From https://github.com/Miu1808/project
+ * branch            master     -> FETCH_HEAD
+ * [new branch]      master     -> origin/master
+fatal: refusing to merge unrelated histories
+tranvananh@Air-cua-Tran Natural Beauty Project % git remote -v
+origin	https://github.com/Miu1808/project (fetch)
+origin	https://github.com/Miu1808/project (push)
+tranvananh@Air-cua-Tran Natural Beauty Project % git push -f origin master
+Enumerating objects: 25, done.
+Counting objects: 100% (25/25), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (24/24), done.
+Writing objects: 100% (25/25), 897.05 KiB | 24.92 MiB/s, done.
+Total 25 (delta 5), reused 0 (delta 0)
+remote: Resolving deltas: 100% (5/5), done.
+To https://github.com/Miu1808/project
+ + 5e6ba56...4150d85 master -> master (forced update)
+tranvananh@Air-cua-Tran Natural Beauty Project % git add .
+tranvananh@Air-cua-Tran Natural Beauty Project % git commit .
+Aborting commit due to empty commit message.
+tranvananh@Air-cua-Tran Natural Beauty Project % git commit -m "code hoan chinh"
+[master 7033ed7] code hoan chinh
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ rename prj.html => index.html (100%)
+tranvananh@Air-cua-Tran Natural Beauty Project % git push origin master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (2/2), 242 bytes | 242.00 KiB/s, done.
+Total 2 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/Miu1808/project
+   4150d85..7033ed7  master -> master
+tranvananh@Air-cua-Tran Natural Beauty Project % git commit .
+Aborting commit due to empty commit message.
+tranvananh@Air-cua-Tran Natural Beauty Project % git commit -m "da chinh sua them nhung chua co phan quiz hoan chinh"
+On branch master
+Changes not staged for commit:
+	modified:   .DS_Store
+	modified:   feedback.css
+	modified:   index.html
+	modified:   log-in.html
+	modified:   prj.css
+	modified:   quiz.css
+	modified:   sign-up.html
+	modified:   trangchu.css
+
+Untracked files:
+	bgr.png
+	bgr.webp
+	quiz.html
+
+no changes added to commit
+tranvananh@Air-cua-Tran Natural Beauty Project % git     
+usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+
+These are common Git commands used in various situations:
+
+start a working area (see also: git help tutorial)
+   clone     Clone a repository into a new directory
+   init      Create an empty Git repository or reinitialize an existing one
+
+work on the current change (see also: git help everyday)
+   add       Add file contents to the index
+   mv        Move or rename a file, a directory, or a symlink
+   restore   Restore working tree files
+   rm        Remove files from the working tree and from the index
+
+examine the history and state (see also: git help revisions)
+   bisect    Use binary search to find the commit that introduced a bug
+   diff      Show changes between commits, commit and working tree, etc
+   grep      Print lines matching a pattern
+   log       Show commit logs
+   show      Show various types of objects
+   status    Show the working tree status
+
+grow, mark and tweak your common history
+   branch    List, create, or delete branches
+   commit    Record changes to the repository
+   merge     Join two or more development histories together
+   rebase    Reapply commits on top of another base tip
+   reset     Reset current HEAD to the specified state
+   switch    Switch branches
+   tag       Create, list, delete or verify a tag object signed with GPG
+
+collaborate (see also: git help workflows)
+   fetch     Download objects and refs from another repository
+   pull      Fetch from and integrate with another repository or a local branch
+   push      Update remote refs along with associated objects
+
+'git help -a' and 'git help -g' list available subcommands and some
+concept guides. See 'git help <command>' or 'git help <concept>'
+to read about a specific subcommand or concept.
+See 'git help git' for an overview of the system.
+tranvananh@Air-cua-Tran Natural Beauty Project % git init 
+Reinitialized existing Git repository in /Users/tranvananh/Documents/Tài liệu code /Natural Beauty Project/.git/
+tranvananh@Air-cua-Tran Natural Beauty Project % ls -l
+total 8448
+-rw-r--r--@ 1 tranvananh  staff   302315 Jul  2 15:33 Feedback + quiz (1).rar
+-rw-r--r--@ 1 tranvananh  staff   302315 Jul  1 23:01 Feedback + quiz.rar
+-rw-r--r--@ 1 tranvananh  staff   910744 Jul  3 15:51 bgr.png
+-rw-r--r--@ 1 tranvananh  staff  1944080 Jul  3 15:45 bgr.webp
+-rw-r--r--@ 1 tranvananh  staff     3939 Jul  2 18:19 comemhomelab.html
+-rw-r--r--  1 tranvananh  staff      782 Jul  3 16:28 feedback.css
+-rw-r--r--@ 1 tranvananh  staff     1260 Jul  2 00:49 feedback.html
+-rw-r--r--@ 1 tranvananh  staff     8603 Jul  3 16:33 index.html
+-rw-r--r--  1 tranvananh  staff     1250 Jul  3 16:04 log-in.css
+-rw-r--r--  1 tranvananh  staff      938 Jul  3 16:05 log-in.html
+-rw-r--r--  1 tranvananh  staff     3743 Jul  2 18:47 pizkie.html
+-rw-r--r--@ 1 tranvananh  staff   187108 Jul  2 19:08 pizkie.webp
+-rw-r--r--@ 1 tranvananh  staff      801 Jul  3 16:20 prj.css
+-rw-r--r--  1 tranvananh  staff     1487 Jul  3 16:37 quiz.css
+-rw-r--r--@ 1 tranvananh  staff     1074 Jul  3 16:36 quiz.html
+-rw-r--r--  1 tranvananh  staff     4130 Jul  2 19:30 quiz.js
+-rw-r--r--  1 tranvananh  staff     1449 Jul  1 10:46 sign-up.css
+-rw-r--r--@ 1 tranvananh  staff     1559 Jul  3 16:05 sign-up.html
+-rw-r--r--@ 1 tranvananh  staff   275632 Jun 23 00:48 signup.webp
+-rw-r--r--@ 1 tranvananh  staff     3210 Jul  2 18:53 skinna.html
+-rw-r--r--@ 1 tranvananh  staff   122384 Jul  2 00:13 suzy.webp
+-rw-r--r--@ 1 tranvananh  staff   132378 Jul  2 00:13 syj.webp
+-rw-r--r--@ 1 tranvananh  staff     4370 Jul  2 18:40 theherbalcup.html
+-rw-r--r--  1 tranvananh  staff     3334 Jul  3 16:11 trangchu.css
+-rw-r--r--@ 1 tranvananh  staff     4552 Jul  2 17:37 trangchu.html
+-rw-r--r--@ 1 tranvananh  staff    41018 Jul  2 00:13 yoona.webp
+tranvananh@Air-cua-Tran Natural Beauty Project % git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+	add
+tranvananh@Air-cua-Tran Natural Beauty Project % git --help
+usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+
+These are common Git commands used in various situations:
+
+start a working area (see also: git help tutorial)
+   clone     Clone a repository into a new directory
+   init      Create an empty Git repository or reinitialize an existing one
+
+work on the current change (see also: git help everyday)
+   add       Add file contents to the index
+   mv        Move or rename a file, a directory, or a symlink
+   restore   Restore working tree files
+   rm        Remove files from the working tree and from the index
+
+examine the history and state (see also: git help revisions)
+   bisect    Use binary search to find the commit that introduced a bug
+   diff      Show changes between commits, commit and working tree, etc
+   grep      Print lines matching a pattern
+   log       Show commit logs
+   show      Show various types of objects
+   status    Show the working tree status
+
+grow, mark and tweak your common history
+   branch    List, create, or delete branches
+   commit    Record changes to the repository
+   merge     Join two or more development histories together
+   rebase    Reapply commits on top of another base tip
+   reset     Reset current HEAD to the specified state
+   switch    Switch branches
+   tag       Create, list, delete or verify a tag object signed with GPG
+
+collaborate (see also: git help workflows)
+   fetch     Download objects and refs from another repository
+   pull      Fetch from and integrate with another repository or a local branch
+   push      Update remote refs along with associated objects
+
+'git help -a' and 'git help -g' list available subcommands and some
+concept guides. See 'git help <command>' or 'git help <concept>'
+to read about a specific subcommand or concept.
+See 'git help git' for an overview of the system.
+tranvananh@Air-cua-Tran Natural Beauty Project % git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   .DS_Store
+	modified:   feedback.css
+	modified:   index.html
+	modified:   log-in.html
+	modified:   prj.css
+	modified:   quiz.css
+	modified:   sign-up.html
+	modified:   trangchu.css
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	bgr.png
+	bgr.webp
+	quiz.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+tranvananh@Air-cua-Tran Natural Beauty Project % checkout
+zsh: command not found: checkout
+tranvananh@Air-cua-Tran Natural Beauty Project % git checkout
+M	.DS_Store
+M	feedback.css
+M	index.html
+M	log-in.html
+M	prj.css
+M	quiz.css
+M	sign-up.html
+M	trangchu.css
+tranvananh@Air-cua-Tran Natural Beauty Project % git commit                    
+On branch master
+Changes not staged for commit:
+	modified:   .DS_Store
+	modified:   feedback.css
+	modified:   index.html
+	modified:   log-in.html
+	modified:   prj.css
+	modified:   quiz.css
+	modified:   sign-up.html
+	modified:   trangchu.css
+
+Untracked files:
+	bgr.png
+	bgr.webp
+	quiz.html
+
+no changes added to commit
+tranvananh@Air-cua-Tran Natural Beauty Project % git commit
+On branch master
+Changes not staged for commit:
+	modified:   .DS_Store
+	modified:   feedback.css
+	modified:   index.html
+	modified:   log-in.html
+	modified:   prj.css
+	modified:   quiz.css
+	modified:   sign-up.html
+	modified:   trangchu.css
+
+Untracked files:
+	bgr.png
+	bgr.webp
+	quiz.html
+
+no changes added to commit
+tranvananh@Air-cua-Tran Natural Beauty Project % git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   .DS_Store
+	modified:   feedback.css
+	modified:   index.html
+	modified:   log-in.html
+	modified:   prj.css
+	modified:   quiz.css
+	modified:   sign-up.html
+	modified:   trangchu.css
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	bgr.png
+	bgr.webp
+	quiz.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+tranvananh@Air-cua-Tran Natural Beauty Project % git add bgr.png
+tranvananh@Air-cua-Tran Natural Beauty Project % git add quiz.html
+tranvananh@Air-cua-Tran Natural Beauty Project % git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	new file:   bgr.png
+	new file:   quiz.html
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   .DS_Store
+	modified:   feedback.css
+	modified:   index.html
+	modified:   log-in.html
+	modified:   prj.css
+	modified:   quiz.css
+	modified:   sign-up.html
+	modified:   trangchu.css
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	bgr.webp
+
+tranvananh@Air-cua-Tran Natural Beauty Project % git add index.html
+tranvananh@Air-cua-Tran Natural Beauty Project % git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	new file:   bgr.png
+	modified:   index.html
+	new file:   quiz.html
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   .DS_Store
+	modified:   feedback.css
+	modified:   log-in.html
+	modified:   prj.css
+	modified:   quiz.css
+	modified:   sign-up.html
+	modified:   trangchu.css
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	bgr.webp
+
+tranvananh@Air-cua-Tran Natural Beauty Project % git add .
+tranvananh@Air-cua-Tran Natural Beauty Project % git commit -m "da chinh sua them lan 1"
+[master 446e29d] da chinh sua them lan 1
+ 11 files changed, 155 insertions(+), 87 deletions(-)
+ create mode 100644 bgr.png
+ create mode 100644 bgr.webp
+ create mode 100644 quiz.html
+tranvananh@Air-cua-Tran Natural Beauty Project % git remote add origin https://github.com/Miu1808/project
+fatal: remote origin already exists.
+tranvananh@Air-cua-Tran Natural Beauty Project % git remote -v
+origin	https://github.com/Miu1808/project (fetch)
+origin	https://github.com/Miu1808/project (push)
+tranvananh@Air-cua-Tran Natural Beauty Project % git push origin .     
+fatal: invalid refspec '.'
+tranvananh@Air-cua-Tran Natural Beauty Project % git push origin master
+Enumerating objects: 22, done.
+Counting objects: 100% (22/22), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (13/13), done.
+Writing objects: 100% (13/13), 2.68 MiB | 1.57 MiB/s, done.
+Total 13 (delta 8), reused 0 (delta 0)
+remote: Resolving deltas: 100% (8/8), completed with 8 local objects.
+To https://github.com/Miu1808/project
+   7033ed7..446e29d  master -> master
+tranvananh@Air-cua-Tran Natural Beauty Project % git init   
+Reinitialized existing Git repository in /Users/tranvananh/Documents/Tài liệu code /Natural Beauty Project/.git/
+tranvananh@Air-cua-Tran Natural Beauty Project % git checkout index.html
+Updated 0 paths from the index
+tranvananh@Air-cua-Tran Natural Beauty Project % git branch -a
+* master
+  remotes/origin/master
+tranvananh@Air-cua-Tran Natural Beauty Project % git add .
+tranvananh@Air-cua-Tran Natural Beauty Project % git checkout log-in.html
+Updated 0 paths from the index
+tranvananh@Air-cua-Tran Natural Beauty Project % git commit --amend
+[master f524a2e] da chinh sua them lan 1
+ Date: Fri Jul 3 17:24:59 2020 +0700
+ 11 files changed, 155 insertions(+), 87 deletions(-)
+ create mode 100644 bgr.png
+ create mode 100644 bgr.webp
+ create mode 100644 quiz.html
+tranvananh@Air-cua-Tran Natural Beauty Project % git checkout index.html
+Updated 0 paths from the index
+tranvananh@Air-cua-Tran Natural Beauty Project % git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   index.html
+	modified:   trangchu.css
+
+no changes added to commit (use "git add" and/or "git commit -a")
+tranvananh@Air-cua-Tran Natural Beauty Project % git commit -a 
+Aborting commit due to empty commit message.
+tranvananh@Air-cua-Tran Natural Beauty Project % git add .
+tranvananh@Air-cua-Tran Natural Beauty Project % git commit -m "chính sua"
+[master 6e750d4] chính sua
+ 2 files changed, 3 deletions(-)
+tranvananh@Air-cua-Tran Natural Beauty Project % git push
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+
+tranvananh@Air-cua-Tran Natural Beauty Project % git push origin master
+To https://github.com/Miu1808/project
+ ! [rejected]        master -> master (non-fast-forward)
+error: failed to push some refs to 'https://github.com/Miu1808/project'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+tranvananh@Air-cua-Tran Natural Beauty Project % git branch -a 
+* master
+  remotes/origin/master
+tranvananh@Air-cua-Tran Natural Beauty Project % git branch -b
+error: unknown switch `b'
+usage: git branch [<options>] [-r | -a] [--merged | --no-merged]
+   or: git branch [<options>] [-l] [-f] <branch-name> [<start-point>]
+   or: git branch [<options>] [-r] (-d | -D) <branch-name>...
+   or: git branch [<options>] (-m | -M) [<old-branch>] <new-branch>
+   or: git branch [<options>] (-c | -C) [<old-branch>] <new-branch>
+   or: git branch [<options>] [-r | -a] [--points-at]
+   or: git branch [<options>] [-r | -a] [--format]
+
+Generic options
+    -v, --verbose         show hash and subject, give twice for upstream branch
+    -q, --quiet           suppress informational messages
+    -t, --track           set up tracking mode (see git-pull(1))
+    -u, --set-upstream-to <upstream>
+                          change the upstream info
+    --unset-upstream      Unset the upstream info
+    --color[=<when>]      use colored output
+    -r, --remotes         act on remote-tracking branches
+    --contains <commit>   print only branches that contain the commit
+    --no-contains <commit>
+                          print only branches that don't contain the commit
+    --abbrev[=<n>]        use <n> digits to display SHA-1s
+
+Specific git-branch actions:
+    -a, --all             list both remote-tracking and local branches
+    -d, --delete          delete fully merged branch
+    -D                    delete branch (even if not merged)
+    -m, --move            move/rename a branch and its reflog
+    -M                    move/rename a branch, even if target exists
+    -c, --copy            copy a branch and its reflog
+    -C                    copy a branch, even if target exists
+    -l, --list            list branch names
+    --show-current        show current branch name
+    --create-reflog       create the branch's reflog
+    --edit-description    edit the description for the branch
+    -f, --force           force creation, move/rename, deletion
+    --merged <commit>     print only branches that are merged
+    --no-merged <commit>  print only branches that are not merged
+    --column[=<style>]    list branches in columns
+    --sort <key>          field name to sort on
+    --points-at <object>  print only branches of the object
+    -i, --ignore-case     sorting and filtering are case insensitive
+    --format <format>     format to use for the output
+
+tranvananh@Air-cua-Tran Natural Beauty Project % git revert   
+usage: git revert [<options>] <commit-ish>...
+   or: git revert <subcommand>
+
+    --quit                end revert or cherry-pick sequence
+    --continue            resume revert or cherry-pick sequence
+    --abort               cancel revert or cherry-pick sequence
+    --skip                skip current commit and continue
+    --cleanup <mode>      how to strip spaces and #comments from message
+    -n, --no-commit       don't automatically commit
+    -e, --edit            edit the commit message
+    -s, --signoff         add Signed-off-by:
+    -m, --mainline <parent-number>
+                          select mainline parent
+    --rerere-autoupdate   update the index with reused conflict resolution if possible
+    --strategy <strategy>
+                          merge strategy
+    -X, --strategy-option <option>
+                          option for merge strategy
+    -S, --gpg-sign[=<key-id>]
+                          GPG sign commit
+
+tranvananh@Air-cua-Tran Natural Beauty Project % git log 
+commit 6e750d430c60031f345c720dfe41289addc45d66 (HEAD -> master)
+Author: MiuMiue <vanh.miuu@gmail.com>
+Date:   Fri Jul 3 17:49:52 2020 +0700
+
+    chính sua
+
+commit f524a2e17d3bebae970726d2357d4e87c27f8148
+Author: MiuMiue <vanh.miuu@gmail.com>
+Date:   Fri Jul 3 17:24:59 2020 +0700
+
+    da chinh sua them lan 1
+
+commit 7033ed75daab8e2bb406d2580574363250d22e55
+Author: MiuMiue <vanh.miuu@gmail.com>
+Date:   Thu Jul 2 19:55:07 2020 +0700
+
+    code hoan chinh
+
+commit 4150d85f28eb526d5407dbe76c8f8c551ac062a6
+Author: MiuMiue <vanh.miuu@gmail.com>
+Date:   Thu Jul 2 19:35:43 2020 +0700
+
+    first commit
+tranvananh@Air-cua-Tran Natural Beauty Project % 
+tranvananh@Air-cua-Tran Natural Beauty Project % git reset --hard commit 7033ed75daab8e2bb406d2580574363250d22e55
+
+fatal: ambiguous argument 'commit': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+tranvananh@Air-cua-Tran Natural Beauty Project % git reset --hard commit 7033ed75daab8e2bb406d2580574363250d22e5 
+fatal: ambiguous argument 'commit': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+tranvananh@Air-cua-Tran Natural Beauty Project % 
+tranvananh@Air-cua-Tran Natural Beauty Project % git log
+commit 6e750d430c60031f345c720dfe41289addc45d66 (HEAD -> master)
+Author: MiuMiue <vanh.miuu@gmail.com>
+Date:   Fri Jul 3 17:49:52 2020 +0700
+
+    chính sua
+
+commit f524a2e17d3bebae970726d2357d4e87c27f8148
+Author: MiuMiue <vanh.miuu@gmail.com>
+Date:   Fri Jul 3 17:24:59 2020 +0700
+
+    da chinh sua them lan 1
+
+commit 7033ed75daab8e2bb406d2580574363250d22e55
+Author: MiuMiue <vanh.miuu@gmail.com>
+Date:   Thu Jul 2 19:55:07 2020 +0700
+
+    code hoan chinh
+
+commit 4150d85f28eb526d5407dbe76c8f8c551ac062a6
+Author: MiuMiue <vanh.miuu@gmail.com>
+Date:   Thu Jul 2 19:35:43 2020 +0700
+
+    first commit
+tranvananh@Air-cua-Tran Natural Beauty Project % 
+tranvananh@Air-cua-Tran Natural Beauty Project % git reset --hard 7033ed75daab8e2bb406d2580574363250d22e55
+HEAD is now at 7033ed7 code hoan chinh
+tranvananh@Air-cua-Tran Natural Beauty Project % git reset --hard 6e750d430c60031f345c720dfe41289addc45d66
+HEAD is now at 6e750d4 chính sua
+tranvananh@Air-cua-Tran Natural Beauty Project % git pull origin master
+From https://github.com/Miu1808/project
+ * branch            master     -> FETCH_HEAD
+Auto-merging trangchu.css
+Auto-merging index.html
+CONFLICT (content): Merge conflict in index.html
+Automatic merge failed; fix conflicts and then commit the result.
+tranvananh@Air-cua-Tran Natural Beauty Project % git add .
+tranvananh@Air-cua-Tran Natural Beauty Project % git commit -m "chinh sua lai lan 2"
+[master c49849d] chinh sua lai lan 2
+tranvananh@Air-cua-Tran Natural Beauty Project % git remote -v   
+origin	https://github.com/Miu1808/project (fetch)
+origin	https://github.com/Miu1808/project (push)
+tranvananh@Air-cua-Tran Natural Beauty Project % git push origin master
+Enumerating objects: 17, done.
+Counting objects: 100% (17/17), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (9/9), done.
+Writing objects: 100% (9/9), 1.28 KiB | 1.28 MiB/s, done.
+Total 9 (delta 6), reused 0 (delta 0)
+remote: Resolving deltas: 100% (6/6), completed with 4 local objects.
+To https://github.com/Miu1808/project
+   446e29d..c49849d  master -> master
+tranvananh@Air-cua-Tran Natural Beauty Project % git add .
