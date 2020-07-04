@@ -1,5 +1,8 @@
 body{
-    background-image: url(./bgr.png);
+    background-image: url(./image.png);
+    background-repeat: ;    
+    background-size: 100%;    
+
 }
 #title{
     margin-top: 60px;

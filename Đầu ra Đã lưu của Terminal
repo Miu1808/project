@@ -40,7 +40,7 @@ start a working area (see also: git help tutorial)
    init      Create an empty Git repository or reinitialize an existing one
 
 work on the current change (see also: git help everyday)
-   add       Add file contents to the index
+   add       Add file contents to the indexgit
    mv        Move or rename a file, a directory, or a symlink
    restore   Restore working tree files
    rm        Remove files from the working tree and from the index
